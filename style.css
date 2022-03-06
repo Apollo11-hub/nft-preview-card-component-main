@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+
+body{ 
+  background-color: #0d1a2d;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+
+h1 a:hover{
+  color:#00fff8;
+}
+
+.creator-nft a:hover{
+  color:#00fff8;
+}
+
+h1{
+  font-size: 25px;
+  
+  padding-bottom: 20px ;
+
+}
+
+p{
+  font-size: 20px;
+  text-align: justify;
+  color: #4e6583;
+}
+
+span{
+  font-size: 18px;
+}
+
+.border-shape{
+  border-radius: 10px;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container-box{
+  width: 25%;
+  min-width: 500px;
+  max-width: 1440px;
+  margin: 130px auto;
+  
+
+
+}
+
+.nft-structure{
+  width: 80%;
+  margin: 0 auto;
+  padding:30px 30px 20px 30px;
+  background-color: #15273f;
+}
+
+.nft-structure img{
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.opa-cont{
+overflow: hidden;
+}
+.tryhard{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  
+}
+
+.opa-cont:hover .tryhard{
+  opacity: 1;
+}
+.boxhover:hover{
+  opacity:0.5 ;
+}
+
+.boxhover{
+  width: 343px;
+  height: 342px;
+  background-color: #00fff8;
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.hovermage{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 39%;
+  left: 41%;
+}
+
+.nft-description-structure{
+  border-bottom: 1px solid #2b3d55;
+  padding: 30px 0;
+}
+
+
+.eth-pricetime-wrapper{
+  padding: 40px 0 20px 0;
+}
+
+.eth-price{
+float: left;
+color: #00fff8;
+}
+
+.eth-price img{
+  width: 10%;
+}
+
+.eth-timer{
+float: right;
+color: #5d779d;
+}
+
+.eth-timer img{
+  width: 15%;
+}
+
+.creator-nft{
+  padding-top:20px;
+text-align: justify;
+color: #4e6583;
+}
+
+.creator-nft a{
+
+  color: white;
+
+}
+
+.creator-nft img{
+  width: 30px;
+  vertical-align: middle;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 10px;
+}
